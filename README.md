@@ -6,7 +6,7 @@ Topological Deep Learning on Differentable Manifolds
 ****
 
 
-# TopoTransCNN model architecture
+# TDLDM model architecture
 ![folder structure](picture/model.png) 
 
 
