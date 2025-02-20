@@ -1,12 +1,12 @@
-Topological Deep Learning on Differentable Manifolds
+Manifold Topological Deep Learning (MTDL)
 ====
 
-    This manual is for the code implementation of paper "Topological Deep Learning on Differentable Manifolds for Biomedical Data"
+    This manual is for the code implementation of paper "Manifold Topological Deep Learning for Biomedical Data"
     
 ****
 
 
-# TDLDM model architecture
+# MTDL model architecture
 ![folder structure](picture/model.png) 
 
 
