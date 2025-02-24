@@ -20,7 +20,7 @@ Manifold Topological Deep Learning (MTDL)
 ![folder structure](picture/model.png) 
 
 
-# How to Use
+# Reproduce our results
 ```linux
 # prepare the decomposed image
 python ./code/prepare_decomposition.py
