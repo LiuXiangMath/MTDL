@@ -17,7 +17,8 @@ def decomposition_to_file(dataname):
                  'vesselmnist3d':1908, 'synapsemnist3d':1759  }
     
     folder = './' + dataname
-    os.makedirs(folder)
+    if not os.path.exists(folder):
+        os.makedirs(folder)
     if dataname in data_2d:
         get_2d_decomposition(dataname,0,data_num[dataname])
     elif dataname in data_3d:
