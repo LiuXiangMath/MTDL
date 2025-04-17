@@ -21,10 +21,17 @@ Manifold Topological Deep Learning (MTDL)
 
 
 # Reproduce our results
+To reproduce our results, you need to first generate the decomposed images, and then use them to train and evaluate our model. The default parameters are configured for the RetinaMNIST dataset.
+1. Run the **prepare_decomposition.py** script
 ```linux
-# prepare the decomposed image
 python ./code/prepare_decomposition.py
+```
+This will create a folder named "retinamnist" that contains all the decomposed images for this dataset
 
-# train model
+2. Run the **main.py** script
+```linux
 python ./code/main.py
 ```
+This will perform training and evaluation on the decomposed images
+
+3. To test other datasets, you can modify the parameters in the above two scripts accordingly.
